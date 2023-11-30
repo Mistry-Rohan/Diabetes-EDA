@@ -1,6 +1,8 @@
 # Diabetes-EDA
 This repository contains EDA on Diabetes Dataset. Along with EDA, Logistic Regression and Random Forest Models are applied and compared as well for prediction purpose.
 
+The repository includes the dataset file named "diabetes.csv" and the analysis python file name "rohan_041081134". 
+
 Problem Statement:
 
 One of the widespread health conditions globally is diabetes, with a growing number of individuals affected. The precise origin of diabetes remains unknown, though scientists theorize that a combination of environmental factors, lifestyle choices, and genetic predisposition plays a substantial role in its development.
