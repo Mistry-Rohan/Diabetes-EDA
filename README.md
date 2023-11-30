@@ -9,12 +9,12 @@ Several years ago, a study was carried out on American Pima tribe, which are als
 
 Dataset Information:
 
-Pregnancies: Number of times pregnant \n
-Glucose: Plasma glucose concentration a 2 hours in an oral glucose tolerance test \n
-Blood pressure: Diastolic blood pressure (mm Hg) \n
-SkinThickness: Triceps skinfold thickness (mm) \n
-Insulin: 2-Hour serum insulin (mu U/ml) test \n
-BMI: Body mass index (weight in kg/(height in m)^2) \n
-DiabetesPedigreeFunction: A function that scores likelihood of diabetes based on family history \n
-Age: Age in years \n
-Outcome: Class variable (0: the person is not diabetic or 1: the person is diabetic) \n
+Pregnancies: Number of times pregnant
+Glucose: Plasma glucose concentration a 2 hours in an oral glucose tolerance test
+Blood pressure: Diastolic blood pressure (mm Hg)
+SkinThickness: Triceps skinfold thickness (mm)
+Insulin: 2-Hour serum insulin (mu U/ml) test
+BMI: Body mass index (weight in kg/(height in m)^2)
+DiabetesPedigreeFunction: A function that scores likelihood of diabetes based on family history
+Age: Age in years
+Outcome: Class variable (0: the person is not diabetic or 1: the person is diabetic)
