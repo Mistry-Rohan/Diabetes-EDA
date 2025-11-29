@@ -29,4 +29,28 @@ Several years ago, a study was carried out on American Pima tribe, which are als
 
 **Outcome**: Class variable (0: the person is not diabetic or 1: the person is diabetic)
 
+## Methodology and Workflow
+### 1. Data Exploration & Quality Assessment
+- Loaded and inspected the dataset in Python.
+- Conducted statistical analysis to examine data distributions.
+- Identified missing values using pandas library functions
+- Detected outliers using the IQR method. 
+
+### 2. Feature Engineering & Selection
+- Performed correlation analysis to identify influential predictors.
+- Created new derived metrics to improve predictive power.
+
+### 3. Data Preprocessing
+- Standardized/scaled numerical features for model compatibility.
+- Split data into training and testing sets using stratified sampling for balanced representation.
+
+### 4. Modeling Approach
+- Implemented multiple classification algorithms (Logistic Regression, Random Forest, SVM).
+- Performed hyperparameter tuning (Grid Search) to optimize model performance.
+
+### 5. Model Evaluation
+- Assessed models using accuracy, precision, recall, and F1-score.
+
+### 6. Interpretation & Recommendations
+- Generated actionable insights based on model results to support early diabetes risk identification.
 
