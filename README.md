@@ -54,3 +54,33 @@ Several years ago, a study was carried out on American Pima tribe, which are als
 ### 6. Interpretation & Recommendations
 - Generated actionable insights based on model results to support early diabetes risk identification.
 
+
+## Observations
+- There is very weak correlation between Glucose, SkinThickness and DiabetesPedigreeFunction. 
+- SkinThickness and Glucose seem to have negative direction.
+- Moreover, DiabetesPedigreeFunction and Glucose also seem to have a negative direction.
+- There seems to presence of outliers.
+- The values are overlapped in the plot of all three variables and therefore simple models cannot be used to predict the outcomes based on any two variables from all the three variables.
+- Many zero values are also observed for Glucose and SkinThickness.
+
+  ### Scatter Plot between Insulin and Glucose
+- Glucose values less than 40 are rarely seen. There are many zero values found for insulin when range of Glucose values are between 50 and 200.
+- In general the realation between Insulin and Glucose seems to be in positive direction and the form appears to be linear.
+- There is a presence of outliers.
+- Strength is weak.
+
+### Correlation Matrix for all the variables
+- No two variables have a high corelation or even near 1 which means there are no duplicate values.
+- Majority of the correlations are weak correlations.
+- There are few intersting moderate correlations observered
+  1. Age and pregancies are moderately correlated with r=0.55
+  2. Insulin and SkinThickness are moderately correlated with r=0.47
+  3. BMI and SkinThickness are moderately correlated with r=0.39
+  4. Insulin and Glucose are moderately correlated with r=0.33
+   
+### Predictive Machine Learning Models
+- The accuracy of the Logistic Regression Model on the train set is 76% and the accuracy on the test set is 75%.
+- The number of True Positives are 60 and the number of True Negatives are 53.
+- The accuracy of the random forest model on train set was 82% and that with the test set was 79%.
+- The Number of True Positives were 56 and the number of True Negatives were 63.
+- The Random Forest Model has better accuracy on both training and test data compared to Logistic Regression Model. However, the number of Type 2 error in Random Forest Model is found to be slightly higer than the Logistic Regression Model.
